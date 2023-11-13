@@ -31,16 +31,38 @@
 
  button {
    cursor: pointer;
-   display: flex;
+
+ }
+
+ body {
    height: 100vh;
-   justify-content: center;
+
+ }
+
+ #root {
+   height: 100%;
+ }
+
+ .container {
    align-items: center;
+   display: flex;
+   justify-content: center;
+   height: 100%;
  }
 
  .main {
    margin: auto;
+   color: var(--light-cyan);
    background: var(--grayish-blue);
    width: 40%;
    max-width: 450px;
    padding: 4rem;
+   text-align: center;
+ }
+
+
+ .main h6 {
+   color: var(--neon-green);
+   text-transform: uppercase;
+   letter-spacing: 5px;
  }

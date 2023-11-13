@@ -5,7 +5,7 @@ import patternDividerMobile from './images/pattern-divider-mobile.svg';
 
 function App() {
  return (
-  <div className='App'>
+  <div className='App container'>
    <div className='main'>
     <h6>Advice #117</h6>
     <p className='quote'>
