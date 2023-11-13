@@ -14,8 +14,8 @@
  }
 
  body {
-   /* background: ;
-  color: ; */
+   background: var(--dark-blue);
+   color: var(--light-cyan);
    -webkit-font-smoothing: antialiased;
  }
 
@@ -31,4 +31,16 @@
 
  button {
    cursor: pointer;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .main {
+   margin: auto;
+   background: var(--grayish-blue);
+   width: 40%;
+   max-width: 450px;
+   padding: 4rem;
  }

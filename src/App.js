@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import patternDividerDesktop from './images/pattern-divider-desktop.svg';
+import patternDividerMobile from './images/pattern-divider-mobile.svg';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return (
+  <div className='App'>
+   <div className='main'>
+    <h6>Advice #117</h6>
+    <p className='quote'>
+     "This is a random quote, it'll be generated dynamiclly later, alright?
+    </p>
+    <picture>
+     <source media='(max-width: 799px)' srcset={patternDividerMobile}></source>
+     <source media='(min-width: 800px)' srcset={patternDividerDesktop}></source>
+     <img src={patternDividerDesktop} alt='pattern-divider image'></img>
+    </picture>
+   </div>
+  </div>
+ );
 }
 
 export default App;
