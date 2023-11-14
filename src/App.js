@@ -5,9 +5,9 @@ import Main from './components/main';
 
 function App() {
  const [advice, setadvice] = useState(
-  'Remember that spiders are more afraid of you, than you are of them.',
+  "It is easy to sit up and take notice, what's diffcult is getting up and taking action.",
  );
- const [adviceID, setadviceID] = useState(1);
+ const [adviceID, setadviceID] = useState(117);
 
  const fetchAdvice = () => {
   fetch('https://api.adviceslip.com/advice', {
