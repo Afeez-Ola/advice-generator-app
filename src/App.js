@@ -25,6 +25,14 @@ function App() {
   <div className='App container px-4'>
    <Main advice={advice} adviceID={adviceID}></Main>
    <Button fetchAdvice={fetchAdvice}></Button>
+
+   <div class='attribution'>
+    Challenge by{' '}
+    <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
+     Frontend Mentor
+    </a>
+    . Coded by <a href='#'>Afeez Bolaji</a>.
+   </div>
   </div>
  );
 }
