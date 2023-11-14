@@ -6,7 +6,7 @@ import patternDividerMobile from './images/pattern-divider-mobile.svg';
 function App() {
  return (
   <div className='App container'>
-   <div className='main'>
+   <div className='main py-6 px-9 max-w-lg'>
     <h6>Advice #117</h6>
     <p className='quote'>
      "This is a random quote, it'll be generated dynamiclly later, alright?
