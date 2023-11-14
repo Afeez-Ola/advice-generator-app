@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-import patternDividerDesktop from './images/pattern-divider-desktop.svg';
-import patternDividerMobile from './images/pattern-divider-mobile.svg';
 
 import iconDice from './images/icon-dice.svg';
 import Picture from './components/picture';
+import Advice from './components/advice';
 
 function App() {
  const [advice, setadvice] = useState(
@@ -28,11 +27,8 @@ function App() {
   <div className='App container px-4'>
    <div className='main  w-2/5 max-[680px]:w-full rounded-xl py-10 px-13 max-w-lg mt-2'>
     <h6 className='font-extrabold text-sm'>Advice #{adviceID}</h6>
-    <p className='quote px-3 font-extrabold'>"{advice}"</p>
-    <Picture
-     patternDividerMobile={patternDividerMobile}
-     patternDividerDesktop={patternDividerDesktop}
-    ></Picture>
+    <Advice advice={advice}></Advice>
+    <Picture></Picture>
    </div>
    <button
     onClick={fetchAdvice}
