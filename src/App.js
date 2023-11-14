@@ -13,7 +13,6 @@ function App() {
     </p>
     <picture>
      <source media='(max-width: 799px)' srcset={patternDividerMobile}></source>
-     <source media='(min-width: 800px)' srcset={patternDividerDesktop}></source>
      <img src={patternDividerDesktop} alt='pattern-divider image'></img>
     </picture>
    </div>
