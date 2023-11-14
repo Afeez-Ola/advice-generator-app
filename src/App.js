@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-
-
-import Picture from './components/picture';
-import Advice from './components/advice';
+import Button from './components/button';
+import Main from './components/main';
 
 function App() {
  const [advice, setadvice] = useState(
@@ -25,18 +23,8 @@ function App() {
 
  return (
   <div className='App container px-4'>
-   <div className='main  w-2/5 max-[680px]:w-full rounded-xl py-10 px-13 max-w-lg mt-2'>
-    <h6 className='font-extrabold text-sm'>Advice #{adviceID}</h6>
-    <Advice advice={advice}></Advice>
-    <Picture></Picture>
-   </div>
-   <button
-    onClick={fetchAdvice}
-    className='p-3 mt-0 rounded-full'
-    type='submit'
-   >
-    <img src={iconDice}></img>
-   </button>
+   <Main advice={advice} adviceID={adviceID}></Main>
+   <Button fetchAdvice={fetchAdvice}></Button>
   </div>
  );
 }
