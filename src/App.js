@@ -8,7 +8,7 @@ import iconDice from './images/icon-dice.svg';
 function App() {
  return (
   <div className='App container'>
-   <div className='main py-6 px-9 max-w-lg'>
+   <div className='main py-7 px-9 max-w-lg mt-2'>
     <h6>Advice #117</h6>
     <p className='quote'>
      "This is a random quote, it'll be generated dynamiclly later, alright?
@@ -17,10 +17,10 @@ function App() {
      <source media='(max-width: 799px)' srcset={patternDividerMobile}></source>
      <img src={patternDividerDesktop} alt='pattern-divider image'></img>
     </picture>
-    <button className='p-4 rounded-full' type='submit'>
-     <img src={iconDice}></img>
-    </button>
    </div>
+   <button className='p-3 mt-0 rounded-full' type='submit'>
+    <img src={iconDice}></img>
+   </button>
   </div>
  );
 }

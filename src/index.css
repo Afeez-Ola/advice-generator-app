@@ -57,6 +57,8 @@
    align-items: center;
    display: flex;
    justify-content: center;
+   flex-direction: column;
+   gap: 0;
 
  }
 
@@ -79,8 +81,8 @@
    letter-spacing: 5px;
  }
 
- .main button {
+ .container button {
    background: var(--neon-green);
    position: relative;
-   top: 50px;
+   bottom: 2.5%;
  }
