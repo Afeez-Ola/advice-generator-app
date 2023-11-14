@@ -78,4 +78,9 @@
    text-transform: uppercase;
    letter-spacing: 5px;
  }
- 
+
+ .main button {
+   background: var(--neon-green);
+   position: relative;
+   top: 50px;
+ }

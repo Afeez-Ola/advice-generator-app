@@ -17,7 +17,7 @@ function App() {
      <source media='(max-width: 799px)' srcset={patternDividerMobile}></source>
      <img src={patternDividerDesktop} alt='pattern-divider image'></img>
     </picture>
-    <button type='submit'>
+    <button className='p-4 rounded-full' type='submit'>
      <img src={iconDice}></img>
     </button>
    </div>
