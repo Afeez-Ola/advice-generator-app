@@ -8,7 +8,7 @@ function Button(props) {
    className='p-3 mt-0 rounded-full'
    type='submit'
   >
-   <img src={iconDice}></img>
+   <img src={iconDice} alt='Dice-Icon'></img>
   </button>
  );
 }
