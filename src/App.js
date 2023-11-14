@@ -7,13 +7,13 @@ import iconDice from './images/icon-dice.svg';
 
 function App() {
  return (
-  <div className='App container'>
-   <div className='main py-7 px-9 max-w-lg mt-2'>
+  <div className='App container px-4'>
+   <div className='main  w-2/5 max-[680px]:w-full rounded-xl py-10 px-13 max-w-lg mt-2'>
     <h6>Advice #117</h6>
-    <p className='quote'>
+    <p className='quote px-3 font-extrabold'>
      "This is a random quote, it'll be generated dynamiclly later, alright?
     </p>
-    <picture>
+    <picture className='mb-2'>
      <source media='(max-width: 799px)' srcset={patternDividerMobile}></source>
      <img src={patternDividerDesktop} alt='pattern-divider image'></img>
     </picture>

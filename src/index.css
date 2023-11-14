@@ -65,7 +65,6 @@
  .main {
    color: var(--light-cyan);
    background: var(--dark-grayish-blue);
-   width: 40%;
    text-align: center;
    display: flex;
    justify-content: center;
