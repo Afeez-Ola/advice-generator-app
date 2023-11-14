@@ -28,12 +28,10 @@ Users should be able to:
 - [Tailwind](https://tailwindcss.com/) - CSS framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mobolaji](https://medium.com/@mobolaji___)
+- Frontend Mentor - [@Afeez-Ola](https://www.frontendmentor.io/profile/Afeez-Ola)
+- Twitter - [@Mobolaji\_\_\_](https://www.twitter.com/Mobolaji___)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
