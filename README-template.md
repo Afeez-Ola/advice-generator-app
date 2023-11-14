@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/advice-generator-app)
+- Live Site URL: [Add live site URL here](https://advice-generator-app-ashy-three.vercel.app/)
 
 ## My process
 
