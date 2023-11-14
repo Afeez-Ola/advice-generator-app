@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import iconDice from './images/icon-dice.svg';
+
 import Picture from './components/picture';
 import Advice from './components/advice';
 
